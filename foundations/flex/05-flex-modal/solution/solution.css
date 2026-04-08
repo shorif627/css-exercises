@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,7 +76,6 @@ button.cancel {
 }
 
 .icon {
-  /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
 }
 /* header container should be wrapped around the button element as well in order for flex style to work */
